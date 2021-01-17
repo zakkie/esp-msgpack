@@ -1,7 +1,7 @@
 {
-    "name": "msgpack library for ESP32 (ESP-IDF)",
-    "keywords": "msgpack, messagepack, esp32, esp-idf, espressif",
-    "description": "Library for work with MessagePack.",
+    "name": "esp-msgpack",
+    "keywords": ["msgpack", "messagepack", "esp32", "esp-idf", "espressif"],
+    "description": "MessagePack Library for ESP-IDF.",
     "authors": {
         "name": "Akihiro Yamazaki",
         "email": "zakkie@live.jp",

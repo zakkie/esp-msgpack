@@ -13,7 +13,8 @@
         "includeDir": "msgpack-c/include",
         "flags": [
             "-D MSGPACK_ENDIAN_LITTLE_BYTE=1"
-        ]
+        ],
+        "extraScript": "extra_script.py"
     },
     "repository": {
         "type": "git",

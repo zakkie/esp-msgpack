@@ -1,0 +1,26 @@
+{
+    "name": "msgpack library for ESP32 (ESP-IDF)",
+    "keywords": "msgpack, messagepack, esp32, esp-idf, espressif",
+    "description": "Library for work with MessagePack.",
+    "authors": {
+        "name": "Akihiro Yamazaki",
+        "email": "zakkie@live.jp",
+        "url": "https://github.com/zakkie",
+        "maintainer": true
+    },
+    "build": {
+        "srcDir": "msgpack-c/src",
+        "includeDir": "msgpack-c/include",
+        "flags": [
+            "-D MSGPACK_ENDIAN_LITTLE_BYTE=1"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zakkie/esp-msgpack.git"
+    },
+    "license": "BSL-1.0",
+    "version": "3.3.0",
+    "frameworks": "espidf",
+    "platforms": "espressif32"
+}

@@ -13,10 +13,12 @@ This error can be avoided by the following:
 $ echo '#undef __APPLE__' > .vscode/cross.h
 ```
 
-And add following to `c_cpp_properties.json` file:
+And add following to `.vscode/settings.json` file:
 
 ```
-"forcedInclude": [ "${workspaceFolder}/.vscode/cross.h" ]
+{
+    "C_Cpp.default.forcedInclude": ["${workspaceFolder}/.vscode/cross.h"]
+}
 ```
 
 refs. https://github.com/microsoft/vscode-cpptools/issues/1083

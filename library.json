@@ -22,6 +22,6 @@
     },
     "license": "BSL-1.0",
     "version": "3.3.0",
-    "frameworks": "espidf",
+    "frameworks": ["espidf", "arduino"],
     "platforms": "espressif32"
 }

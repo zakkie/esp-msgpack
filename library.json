@@ -21,7 +21,7 @@
         "url": "https://github.com/zakkie/esp-msgpack.git"
     },
     "license": "BSL-1.0",
-    "version": "3.3.0",
+    "version": "3.3.0+arduino",
     "frameworks": ["espidf", "arduino"],
     "platforms": "espressif32"
 }
